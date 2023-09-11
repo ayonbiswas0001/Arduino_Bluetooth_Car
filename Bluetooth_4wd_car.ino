@@ -11,7 +11,7 @@ int lastButtonState = 0;
 int Turnradius = 0; //Set the radius of a turn, 0 - 255 Note:the robot will malfunction if this is higher than int Speed.
 int brakeTime = 45;
 int brkonoff = 1; //1 for the electronic braking system, 0 for normal.
-void setup() {
+void setup() { 
   pinMode(in1, OUTPUT);
   pinMode(in2, OUTPUT);
   pinMode(in3, OUTPUT);
